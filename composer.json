@@ -2,7 +2,7 @@
   "name": "afrittella/laravel-pages",
   "description": "Simple markdown pages management for Laravel 5",
   "require": {
-    "php": ">=7.1",
+    "php": ">=7",
     "kalnoy/nestedset": "^4.2",
     "illuminate/container": "~5.4.0",
     "illuminate/contracts": "~5.4.0",
