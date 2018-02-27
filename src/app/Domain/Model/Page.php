@@ -27,7 +27,7 @@ class Page extends Model
         $this->attributes['body'] = strip_tags($value);
     }
 
-    public function createSlug(string $value, int $id = 0): string
+    public function createSlug(string $value, $id = 0): string
     {
         $slug = str_slug($value);
 

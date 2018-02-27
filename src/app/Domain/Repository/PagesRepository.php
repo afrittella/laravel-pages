@@ -60,9 +60,9 @@ class PagesRepository extends BaseRepository
         return $node->down();
     }
 
-    public function tree($name)
+    public function tree($code = 'root')
     {
-        $root = $this->findBy('title', $name);
+        $root = $this->findBy('code', $code);
         $tree = false;
 
         if (!empty($root)) {
